@@ -316,7 +316,14 @@
 </div>
 
 <div class="content" role="main">
-
+  <nav>
+    <ul>
+      <li><a routerLink="/cadastro" routerLinkActive="active">cadastro</a></li>
+      <li><a routerLink="/local">local</a></li>
+    </ul>
+  </nav>
+  
+  <router-outlet></router-outlet>
   <!-- Highlight Card -->
   <div class="card highlight-card card-small">
 
@@ -529,6 +536,3 @@
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-
-
-<router-outlet></router-outlet>
